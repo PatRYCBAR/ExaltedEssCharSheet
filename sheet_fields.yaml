@@ -1,0 +1,32 @@
+fields:
+ level:
+  label: "Level"
+  input: integer
+  min: 1
+  max: 20
+  # comments are starting with # and get ignored by WA
+  # allows to enter numbers between 1 to 20
+ class:
+  label: "Class"
+  input: string
+  placeholder: "eg Warrior, Mage, ..."
+  # allows to enter a one line text
+ notes:
+  label: "Notes"
+  input: text
+  rows: 10
+  placeholder: "write down stuff during session"
+  # allows to enter several lines of text, the rows are only used for
+  # how many are shown in the form, not how many you can enter
+ gender:
+  label: "Gender"
+  input: select
+  options:
+   male: male
+   female: female
+   other: other
+   # this is a dropdown box with three entries, first one is the default
+ sample checkbox:
+  label: "Sample Checkbox"
+  input: checkbox
+  # defines a checkbox that you can toggle on and off
